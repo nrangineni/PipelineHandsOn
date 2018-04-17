@@ -13,8 +13,7 @@ pipeline {
     }
     stage('') {
       steps {
-        sh 'echo ${PATH}'
-      }
+        sh "echo ${PATH}"      }
     }
   }
 }
