@@ -11,5 +11,10 @@ pipeline {
         sh 'java -version'
       }
     }
+    stage('') {
+      steps {
+        sh 'echo ${PATH}'
+      }
+    }
   }
 }
